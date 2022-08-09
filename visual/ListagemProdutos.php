@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pT-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Produtos</title>
 </head>
 <body>
+    <header>
 <h1>Listagem de produtos</h1>
+</header>
     <p>Veja os produtos cadastrados.</p>
     <table border="1">
         <tr>

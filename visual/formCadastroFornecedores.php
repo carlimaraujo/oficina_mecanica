@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Formulário de Fornecedores</title>
 </head>
 <body>
+    <header>
     <h1>Cadastro de Fornecedores</h1>
+</header>
     <form action="cadastroFornecedores.php" method="POST">
         
         <label for="input_nome">Nome</label>

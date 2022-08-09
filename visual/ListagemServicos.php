@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Serviços</title>
 </head>
 <body>
+    <header>
 <h1>Listagem de serviços</h1>
+</header>
     <p>Veja os serviços cadastrados.</p>
     <table border="1">
         <tr>

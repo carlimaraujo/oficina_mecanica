@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Formulário de Funcionarios</title>
+    <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Formulário de Funcionários</title>
 </head>
 <body>
+    <header>
     <h1>Cadastro de Funcionarios</h1>
+    </header>
     <form action="cadastroFuncionarios.php" method="POST">
         
         <label for="input_nome">Nome</label>

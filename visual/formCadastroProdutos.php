@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,10 @@
     <link rel="stylesheet" type="text/css" href="./estilo.css"><title>Formulário de Produtos</title>
 </head>
 <body>
-    <h1>Cadastro de Produtos</h1>
-    <form action="cadastroProdutos.php" method="POST">
+<header>    
+<h1>Cadastro de Produtos</h1>
+</header>
+<form action="cadastroProdutos.php" method="POST">
         
         <label for="input_nome">Nome</label>
         <input type="text" name="input_nome" id="input_nome"><br><br>

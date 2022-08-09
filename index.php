@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oficina Mecânica</title>
     <link rel="stylesheet" href="./visual/estilo.css">
@@ -27,7 +26,7 @@
     <div class='formbox'>
         <a href="./visual/formCadastroClientes.php" class="index">Formulário de Cadastro de Clientes</a>
         <a href="./visual/formCadastroFornecedores.php" class="index">Formulário de Cadastro de Fornecedores</a>
-        <a href="./visual/formCadastroFuncionarios.php" class="index">Formulário de Cadastro de Funcionarios</a>
+        <a href="./visual/formCadastroFuncionarios.php" class="index">Formulário de Cadastro de Funcionários</a>
         <a href="./visual/formCadastroProdutos.php" class="index">Formulário de Cadastro de Produtos</a>
         <a href="./visual/formCadastroServicos.php" class="index">Formulário de Cadastro de Serviços</a>
     </div>
