@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Ferro";
+  src: url("../assets/FerroRosso.ttf");
+}
+
+* {
+  font-size: 115%;
+}
+
+.index {
+  color: #b60707;
+  background-color: #ebb4b49f;
+  text-decoration: unset;
+  margin: 10px;
+  border-bottom: 3px solid #b60707;
+  border-left: 3px solid #b60707;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: -4px 5px 19px -1px #0000009f;
+  box-shadow: -4px 5px 19px -1px #0000009f;
+}
+
+header {
+  background-color: hsl(0, 0%, 100%);;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: #b60707;
+  background-color: rgba(0, 0, 0, 0);
+  width: fit-content;
+  font-family: Ferro;
+  text-align: center;
+  margin: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 100px;
+  padding-top: 10px;
+}
+
+body {
+  background: hsl(0, 100%, 50%);
+  background: linear-gradient(180deg, rgba(255,0,0,0.7847514005602241) 30%, rgba(255,255,255,1) 80%);
+  margin: 0%;   
+  background-repeat: no-repeat;
+  height:  100vh;
+}
+
+label {
+  color: rgb(20, 37, 1);
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  background-color: #ebb4b49f;
+  border-bottom: 3px solid #b60707;
+  border-left: 3px solid #b60707;
+  margin-left: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input {
+  font-size: 24px;
+}
+
+.listbox {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 15px;
+  font-family: "Kanit", sans-serif;
+
+}
+
+.formbox {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: 100%;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
+.save{
+  margin: 10px;
+  background-color: #ffa2a2b2;
+}
+
+.ferrari{
+  position: absolute;
+  top: 325px;
+  right: 200px;
+  width: 800px;
+  
+}
