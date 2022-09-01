@@ -46,8 +46,11 @@
             <option value="3">Caleb Nelson Danilo Drumond</option>
         </select>-->
 
-        <button class="save">Salvar</button>
+        <button class="savecad">Salvar</button>
     </form>
-    <a href="../index.php">Início</a>
+    <a href="../index.php" class="iniciocad">Início</a>
+    <div>
+    <img class="ferrarilogo" src="../assets/ferrarilogo.png" alt="Logo ferrari"/>
+    </div>
 </body>
 </html>

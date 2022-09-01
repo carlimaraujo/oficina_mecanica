@@ -9,19 +9,21 @@
 
 .index {
   color: #771d1d;
-  background-color: #ebb4b49f;
+  background-color: rgba(235, 178, 178, 0.624);
   text-decoration: unset;
   margin: 10px;
-  border-bottom: 3px solid #b60707;
-  border-left: 3px solid #b60707;
+  border-bottom: 3px solid hsl(0, 0%, 90%);
+  border-left: 3px solid hsl(0, 0%, 90%);
   padding: 15px;
   border-radius: 10px;
   -webkit-box-shadow: -4px 5px 19px -1px #0000009f;
   box-shadow: -4px 5px 19px -1px #0000009f;
 }
 
+
+
 header {
-  background-color: hsl(0, 0%, 100%);;
+  background-color: rgb(255, 255, 255);;
   margin-bottom: 50px;
 }
 
@@ -39,11 +41,14 @@ h1 {
 }
 
 body {
-  background: hsl(0, 100%, 50%);
-  background: linear-gradient(180deg, rgba(255,0,0,0.7847514005602241) 30%, rgba(255,255,255,1) 80%);
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgb(224, 18, 18) 0%, rgb(14, 13, 13) 100%);
   margin: 0%;   
   background-repeat: no-repeat;
-  height:  100vh;
+  height: 100vh;
+  background-attachment: fixed;
+
+
 }
 
 label {
@@ -51,8 +56,7 @@ label {
   font-family: "Kanit", sans-serif;
   font-size: 24px;
   background-color: #ebb4b49f;
-  border-bottom: 3px solid #b60707;
-  border-left: 3px solid #b60707;
+  border-bottom: 2px solid rgb(255, 255, 255);
   margin-left: 8px;
   margin-right: 10px;
   border-radius: 5px;
@@ -82,15 +86,149 @@ input {
   font-family: "Kanit", sans-serif;
 }
 
-.save{
-  margin: 10px;
-  background-color: #ffa2a2b2;
+.savecad{
+  color: rgb(20, 37, 1);
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  background-color: #ebb4b49f;
+  margin-left: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px;
 }
 
 .ferrari{
   position: absolute;
   top: 325px;
-  right: 200px;
-  width: 800px;
+  right: 320px;
+  width: 700px;
   
 }
+
+.ferrarilogo{
+  position: absolute;
+  top: 325px;
+  right: 400px;
+  width: 700px;
+}
+
+.iniciocad{
+  text-decoration: unset;
+  color: white;  
+  margin-top: 82px;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.iniciolist{
+  text-decoration: unset;
+  color: white;  
+  margin-top: 82px;
+  margin-left: 1820px;
+}
+
+p{
+  font-weight: bold;
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 20px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  color: aliceblue;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+}
+
+th{
+  border-right: none;
+}
+
+td{
+  border-right: none;
+}
+
+tr{
+  border-right: none;
+  border-left:none;
+  margin-top: none;
+  margin-bottom: none;
+  color: aliceblue;
+}
+
+tbody{
+  margin-top: solid;
+}
+
+.prod{
+  font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#nav{
+
+}
+li ul{
+  display: none;
+  color: #142501;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  margin-left: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 15px;
+  font-family: "Kanit", sans-serif;
+}
+
+li:hover ul{
+  display: block;
+  position: absolute;
+  
+}
+
+ul li ul li a{
+  font-size: 25px;
+  text-decoration: none;
+color: #142501;
+}   
+
+li{
+  color: rgb(20, 37, 1);
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  background-color: #ebb4b49f;
+  border-bottom: 3px solid #b60707;
+  border-left: 3px solid #b60707;
+  margin-left: 8px;
+  margin-right: 40px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+

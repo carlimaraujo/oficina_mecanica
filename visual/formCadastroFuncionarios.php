@@ -27,8 +27,11 @@
         <label for="input_funcao">Função</label>
         <input type="text" name="input_funcao" id="input_funcao"><br><br>
 
-        <button class="save">Salvar</button>
+        <button class="savecad">Salvar</button>
     </form>
-    <a href="../index.php">Início</a>
+    <a href="../index.php" class="iniciocad">Início</a>
+    <div>
+    <img class="ferrarilogo" src="../assets/ferrarilogo.png" alt="Logo ferrari"/>
+    </div>
 </body>
 </html>

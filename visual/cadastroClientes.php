@@ -8,7 +8,6 @@
     <title>Cadastro de Clientes</title>
 </head>
 <body>
-    <h1>Cadastro de Clientes</h1>
     <?php
         require_once '../modelo/Clientes.php';
         require_once '../dao/Conexao.php';

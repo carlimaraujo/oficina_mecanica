@@ -35,7 +35,7 @@
             echo '<td>' . $linha['valor'] . '</td>';
         }
         ?>
-        <a href="../index.php">Início</a>
+        <a href="../index.php" class="iniciolist">Início</a>
     </table>
 </body>
 </html>

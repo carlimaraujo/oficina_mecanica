@@ -4,7 +4,7 @@ class Conexao
 {
     private static $dsn = 'mysql:host=localhost;dbname=oficina_mecanica;port-3306';
     private static $usuario = 'root';
-    private static $senha = '12345';
+    private static $senha = 'root';
     private static $conexao = null;
     public static function getConexao(){
         if (Conexao::$conexao == null){

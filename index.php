@@ -13,10 +13,11 @@
 </style>
 
 <body>
+<div class="container">
     <header>
         <h1>Sistema da Oficina Mecânica</h1>
     </header>
-    <div class="listbox">
+  <div class="listbox">
         <a href="./visual/ListagemClientes.php" class="index">Listar Clientes</a>
         <a href="./visual/ListagemFornecedores.php" class="index">Listar Fornecedores</a>
         <a href="./visual/ListagemFuncionarios.php" class="index">Listar Funcionários</a>
@@ -32,11 +33,12 @@
     </div>
 <img class="ferrari" src="./assets/ferrari.png" alt="Foto de ferrari"/>
 
+</div>
 </body>
 
 </html>
 
-<!--
+<!--    
 
 /*
 require_once './modelo/Clientes.php';

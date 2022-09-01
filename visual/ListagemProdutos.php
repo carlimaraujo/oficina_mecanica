@@ -11,7 +11,7 @@
 <h1>Listagem de produtos</h1>
 </header>
     <p>Veja os produtos cadastrados.</p>
-    <table border="1">
+    <table border="1" class="prod">
         <tr>
             <th>Código</th>
             <th>Nome</th>
@@ -39,7 +39,7 @@
             echo '<td>' . $linha['idfornecedor'] . '</td>';
         }
         ?>
-        <a href="../index.php">Início</a>
+        <a href="../index.php" class="iniciolist">Início</a>
     </table>
 </body>
 </html>

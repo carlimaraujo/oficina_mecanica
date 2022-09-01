@@ -33,7 +33,7 @@
             echo '<td>' . $linha['telefone'] . '</td>';
         }
         ?>
-        <a href="../index.php">Início</a>
+        <a href="../index.php" class="iniciolist">Início</a>
     </table>
 </body>
 </html>
