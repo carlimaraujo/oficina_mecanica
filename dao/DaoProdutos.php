@@ -5,7 +5,8 @@ class DaoProdutos
     public function listatodos()
     {
         $lista = [];
-        $pst = Conexao::getPreparedStatement('select * from produtos');
+        $pst = Conexao::getPreparedStatement('select p.*,f.nome as fornecedor_nome from produtos p inner join fornecedor f 
+        on p.idfornecedor=f.idfornecedor;');
         $pst->execute();
         $lista = $pst->fetchAll(PDO::FETCH_ASSOC);
         return $lista;

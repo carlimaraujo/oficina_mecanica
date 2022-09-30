@@ -13,16 +13,16 @@
 <form action="cadastroProdutos.php" method="POST">
         
         <label for="input_nome">Nome</label>
-        <input type="text" name="input_nome" id="input_nome"><br><br>
+        <input type="text" name="input_nome" id="input_nome"placeholder="Nome"><br><br>
 
         <label for="input_descricao">Descrição</label>
-        <input type="text" name="input_descricao" id="input_descricao"><br><br>
+        <input type="text" name="input_descricao" id="input_descricao"placeholder="Descrição"><br><br>
 
         <label for="input_marca">Marca</label>
-        <input type="text" name="input_marca" id="input_marca"><br><br>
+        <input type="text" name="input_marca" id="input_marca"placeholder="Marca"><br><br>
 
         <label for="input_valor">Valor</label>
-        <input type="text" name="input_valor" id="input_valor"><br><br>
+        <input type="text" name="input_valor" id="input_valor"placeholder="Valor"><br><br>
 
         <label for="input_idforncedor">Código do fornecedor</label>
         <select name="input_idfornecedor" id="id_fornecedor">
@@ -38,14 +38,6 @@
         }
         ?>
         </select>
-        
-        <!--<input type="text" name="input_idfornecedor" id="input_idfornecedor"><br><br>-->
-        <!--<select name="select_idfornecedor" id="select_idfornecedor">
-            <option value="1">Geraldo Raul Heitor de Paula</option>
-            <option value="2">Rodrigo Heitor Erick da Silva</option>
-            <option value="3">Caleb Nelson Danilo Drumond</option>
-        </select>-->
-
         <button class="savecad">Salvar</button>
     </form>
     <a href="../index.php" class="iniciocad">Início</a>

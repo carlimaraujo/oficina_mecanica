@@ -16,6 +16,7 @@ class Produto
         $this->marca = $marca;
         $this->codigofornecedor = $codigofornecedor;
     }
+    
     public function getCodigo()
     {
         return $this->codigo;

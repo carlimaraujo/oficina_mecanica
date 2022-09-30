@@ -13,19 +13,19 @@
     <form action="cadastroFuncionarios.php" method="POST">
         
         <label for="input_nome">Nome</label>
-        <input type="text" name="input_nome" id="input_nome"><br><br>
+        <input type="text" name="input_nome" id="input_nome"placeholder="Nome"><br><br>
 
         <label for="input_cpf">CPF</label>
-        <input type="text" name="input_cpf" id="input_cpf"><br><br>
+        <input type="text" name="input_cpf" id="input_cpf"placeholder="CPF"><br><br>
 
         <label for="input_datanasc">Data de Nascimento</label>
-        <input type="text" name="input_datanasc" id="input_datanasc"><br><br>
+        <input type="text" name="input_datanasc" id="input_datanasc"placeholder="Data de Nascimento"><br><br>
 
         <label for="input_salario">Salario</label>
-        <input type="text" name="input_salario" id="input_salario"><br><br>
+        <input type="text" name="input_salario" id="input_salario"placeholder="Salario"><br><br>
 
         <label for="input_funcao">Função</label>
-        <input type="text" name="input_funcao" id="input_funcao"><br><br>
+        <input type="text" name="input_funcao" id="input_funcao"placeholder="Função"><br><br>
 
         <button class="savecad">Salvar</button>
     </form>

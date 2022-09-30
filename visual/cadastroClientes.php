@@ -21,12 +21,12 @@
 
         $daoClientes = new DaoClientes();
         if($daoClientes->inclui($cliente)){
-            echo 'Cadastro relizado com sucesso.';
+            echo '<h6>Cadastro relizado com sucesso.</h6>';
         }else{
             echo 'Problema ao realizar o cadastro.';
         }
     ?>
-    <a href="../index.php">Início</a>
+    <a href="../index.php" class="inicio">Início</a>
 
 </body>
 </html>

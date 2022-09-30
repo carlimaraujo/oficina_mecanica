@@ -18,7 +18,9 @@
             <th>Descrição</th>
             <th>Marca</th>
             <th>Valor</th>
-            <th>Código Fornecedor</th>
+            <th>Fornecedor</th>
+            <th>Fornecedor</th>
+
             
         </tr>
         <?php
@@ -29,6 +31,7 @@
         $dao = new DaoProdutos();
         $lista = $dao->listatodos();
 
+
         foreach ($lista as $linha){
             echo '<tr>';
             echo '<td>' . $linha['idproduto'] . '</td>';
@@ -37,6 +40,7 @@
             echo '<td>' . $linha['marca'] . '</td>';
             echo '<td>' . $linha['valor'] . '</td>';
             echo '<td>' . $linha['idfornecedor'] . '</td>';
+            echo '<td>' . $linha['fornecedor_nome'] . '</td>';
         }
         ?>
         <a href="../index.php" class="iniciolist">Início</a>

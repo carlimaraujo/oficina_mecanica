@@ -28,7 +28,7 @@
             echo 'Problema ao realizar o cadastro.';
         }
     ?>
-    <a href="../index.php">Início</a>
+    <a href="../index.php" class="inicio">Início</a>
 
 </body>
 </html>

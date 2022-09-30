@@ -23,6 +23,8 @@
         <a href="./visual/ListagemFuncionarios.php" class="index">Listar Funcionários</a>
         <a href="./visual/ListagemProdutos.php" class="index">Listar Produtos</a>
         <a href="./visual/ListagemServicos.php" class="index">Listar Serviços</a>
+        <a href="./visual/ListagemVeiculos.php" class="index">Listar Veículos</a>
+
     </div>
     <div class='formbox'>
         <a href="./visual/formCadastroClientes.php" class="index">Formulário de Cadastro de Clientes</a>
@@ -30,6 +32,8 @@
         <a href="./visual/formCadastroFuncionarios.php" class="index">Formulário de Cadastro de Funcionários</a>
         <a href="./visual/formCadastroProdutos.php" class="index">Formulário de Cadastro de Produtos</a>
         <a href="./visual/formCadastroServicos.php" class="index">Formulário de Cadastro de Serviços</a>
+        <a href="./visual/formCadastroVeiculos.php" class="index">Formulário de Cadastro de Veículos</a>
+
     </div>
 <img class="ferrari" src="./assets/ferrari.png" alt="Foto de ferrari"/>
 
